@@ -62,9 +62,9 @@ public class MPU6050 {
             acelerometro.write( CONFIG,         (byte) 0b00000000 );
             
             acelerometro.write( ACCEL_CONFIG,   (byte) 0b00000000 );
-            //acelerometro.write( ACCEL_CONFIG,   (byte) 0b00001000 );
-            //acelerometro.write( ACCEL_CONFIG,   (byte) 0b00010000 );
-            //acelerometro.write( ACCEL_CONFIG,   (byte) 0b00011000 );
+            acelerometro.write( ACCEL_CONFIG,   (byte) 0b00001000 );
+            acelerometro.write( ACCEL_CONFIG,   (byte) 0b00010000 );
+            acelerometro.write( ACCEL_CONFIG,   (byte) 0b00011000 );
             
             acelerometro.write( FIFO_EN,        (byte) 0b00000000 );
             acelerometro.write( INT_ENABLE,     (byte) 0b00000000 );
